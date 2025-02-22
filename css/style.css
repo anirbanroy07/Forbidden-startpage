@@ -131,7 +131,17 @@
  a:hover {
     
    color: var(--hover-color);
+   
 }
+.grow { 
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  }
+  
+.grow:hover { 
+  transform: scale(1.1); 
+  cursor: pointer;
+  }
 h2{
    display: flex;
    justify-content: space-evenly;
